@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="5aa748a9-a5ea-4ddb-a198-5ad619ff8c6f" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/DebitCardWallet/Connection/DataBase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/DebitCardWallet/Connection/Functionalities.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/DebitCardWallet/Connection/Registration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/DebitCardWallet/Exceptions/AmountGreaterThanBalance.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/DebitCardWallet/Exceptions/BalanceNull.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/DebitCardWallet/Exceptions/IncorrectIdException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/DebitCardWallet/Exceptions/IncorrectPassWordException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/DebitCardWallet/WalletApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/DebitCardWallet/supportClasses/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/DebitCardWallet/supportClasses/Validation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/DebitCardWallet/userInterface/DashBoard.form" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/DebitCardWallet/userInterface/DashBoard.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/DebitCardWallet/userInterface/RegistrationForm.form" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/DebitCardWallet/userInterface/RegistrationForm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/DebitCardWallet/userInterface/application.form" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/DebitCardWallet/userInterface/application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/DebitCardWallet/userInterface/loginPage.form" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/DebitCardWallet/userInterface/loginPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/interfaceImages/login.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/interfaceImages/newUser.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/interfaceImages/stock.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ConnectionTesting/DatabaseTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ConnectionTesting/functionalitiesTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ConnectionTesting/registrationTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/supportClassesTest/ValidationsTest.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageOptionsProvider">
+    <option name="myAddOrReplace" value="0" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2Eidv7YYKScfIzsQGPVcZBZ1Oaj" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;UI_DESIGNER_EDITOR_MODE.UIDesignerToolWindowManager.WIDTH&quot;: &quot;201&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="DebitCardWallet.Exceptions" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.All in DebitCardWallet">
+    <configuration name="All in DebitCardWallet" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="DebitCardWallet" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DatabaseTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="DebitCardWallet" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ConnectionTesting.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ConnectionTesting" />
+      <option name="MAIN_CLASS_NAME" value="ConnectionTesting.DatabaseTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DatabaseTest.connectionTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="DebitCardWallet" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ConnectionTesting.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ConnectionTesting" />
+      <option name="MAIN_CLASS_NAME" value="ConnectionTesting.DatabaseTest" />
+      <option name="METHOD_NAME" value="connectionTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ValidationsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="DebitCardWallet" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="supportClassesTest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="supportClassesTest" />
+      <option name="MAIN_CLASS_NAME" value="supportClassesTest.ValidationsTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ValidationsTest.cardLength" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="DebitCardWallet" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="supportClassesTest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="supportClassesTest" />
+      <option name="MAIN_CLASS_NAME" value="supportClassesTest.ValidationsTest" />
+      <option name="METHOD_NAME" value="cardLength" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.All in DebitCardWallet" />
+        <item itemvalue="JUnit.ValidationsTest" />
+        <item itemvalue="JUnit.ValidationsTest.cardLength" />
+        <item itemvalue="JUnit.DatabaseTest" />
+        <item itemvalue="JUnit.DatabaseTest.connectionTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="5aa748a9-a5ea-4ddb-a198-5ad619ff8c6f" name="Changes" comment="" />
+      <created>1663082569968</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1663082569968</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/DebitCardWallet$DatabaseTest.ic" NAME="DatabaseTest Coverage Results" MODIFIED="1663618591511" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>ConnectionTesting.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/DebitCardWallet$All_in_DebitCardWallet.ic" NAME="All in DebitCardWallet Coverage Results" MODIFIED="1663620201358" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/DebitCardWallet$DatabaseTest_allTableValues.ic" NAME="DatabaseTest.allTableValues Coverage Results" MODIFIED="1663616651371" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>ConnectionTesting.*</FILTER>
+    </SUITE>
+  </component>
+</project>

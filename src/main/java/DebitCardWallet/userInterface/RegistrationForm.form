@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="DebitCardWallet.userInterface.RegistrationForm">
+  <grid id="27dc6" binding="registerPanel" layout-manager="GridLayoutManager" row-count="13" column-count="3" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="10" left="10" bottom="10" right="10"/>
+    <constraints>
+      <xy x="20" y="20" width="500" height="468"/>
+    </constraints>
+    <properties>
+      <background color="-4785110"/>
+      <font name="New Peninim MT" size="18" style="2"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <component id="3cc55" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="0" column="0" row-span="2" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <icon value="interfaceImages/newUser.png"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="b9245" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="0" column="1" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="JetBrains Mono" size="48" style="3"/>
+          <text value="Register"/>
+        </properties>
+      </component>
+      <component id="269a1" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="New Peninim MT" size="18" style="2"/>
+          <text value="Name"/>
+        </properties>
+      </component>
+      <component id="3393d" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="New Peninim MT" size="18" style="2"/>
+          <text value="Id"/>
+        </properties>
+      </component>
+      <component id="90bca" class="javax.swing.JTextField" binding="nameField">
+        <constraints>
+          <grid row="2" column="1" row-span="1" col-span="2" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <font name="New Peninim MT" size="18" style="2"/>
+        </properties>
+      </component>
+      <component id="a6c6" class="javax.swing.JTextField" binding="idField">
+        <constraints>
+          <grid row="3" column="1" row-span="1" col-span="2" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <font name="New Peninim MT" size="18" style="2"/>
+        </properties>
+      </component>
+      <component id="74d0c" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="New Peninim MT" size="18" style="2"/>
+          <text value="Password"/>
+        </properties>
+      </component>
+      <component id="a22bb" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="5" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="New Peninim MT" size="18" style="2"/>
+          <text value="Card Number"/>
+        </properties>
+      </component>
+      <component id="cdb0" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="7" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="New Peninim MT" size="18" style="2"/>
+          <text value="Date of expiry"/>
+        </properties>
+      </component>
+      <component id="60a54" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="8" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="New Peninim MT" size="18" style="2"/>
+          <text value="Current balance"/>
+        </properties>
+      </component>
+      <component id="7cf06" class="javax.swing.JTextField" binding="cardField">
+        <constraints>
+          <grid row="5" column="1" row-span="1" col-span="2" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <font name="New Peninim MT" size="18" style="2"/>
+        </properties>
+      </component>
+      <component id="d61c2" class="javax.swing.JTextField" binding="cvvField">
+        <constraints>
+          <grid row="6" column="1" row-span="1" col-span="2" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <font name="New Peninim MT" size="18" style="2"/>
+        </properties>
+      </component>
+      <component id="1c995" class="javax.swing.JTextField" binding="dateField">
+        <constraints>
+          <grid row="7" column="1" row-span="1" col-span="2" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <font name="New Peninim MT" size="18" style="2"/>
+        </properties>
+      </component>
+      <component id="89f2f" class="javax.swing.JTextField" binding="balanceField">
+        <constraints>
+          <grid row="8" column="1" row-span="1" col-span="2" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <font name="New Peninim MT" size="18" style="2"/>
+        </properties>
+      </component>
+      <component id="e31b" class="javax.swing.JPasswordField" binding="passwordField">
+        <constraints>
+          <grid row="4" column="1" row-span="1" col-span="2" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <font name="New Peninim MT" size="18" style="2"/>
+        </properties>
+      </component>
+      <component id="a5296" class="javax.swing.JButton" binding="registerBtn">
+        <constraints>
+          <grid row="10" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="New Peninim MT" size="18" style="2"/>
+          <text value="Submit"/>
+        </properties>
+      </component>
+      <component id="dadc6" class="javax.swing.JButton" binding="clearBtn">
+        <constraints>
+          <grid row="10" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="New Peninim MT" size="18" style="2"/>
+          <text value="Clear"/>
+        </properties>
+      </component>
+      <vspacer id="50ee2">
+        <constraints>
+          <grid row="9" column="1" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </vspacer>
+      <vspacer id="e9f9a">
+        <constraints>
+          <grid row="9" column="2" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </vspacer>
+      <component id="4ebe9" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="6" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="New Peninim MT" size="18" style="2"/>
+          <text value="CVV"/>
+        </properties>
+      </component>
+      <component id="1a5f7" class="javax.swing.JButton" binding="mainMenuButton" default-binding="true">
+        <constraints>
+          <grid row="12" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Main Menu"/>
+        </properties>
+      </component>
+      <component id="2f4cd" class="javax.swing.JButton" binding="exitButton" default-binding="true">
+        <constraints>
+          <grid row="12" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Exit"/>
+        </properties>
+      </component>
+      <vspacer id="cc34f">
+        <constraints>
+          <grid row="11" column="1" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </vspacer>
+      <vspacer id="8c9c9">
+        <constraints>
+          <grid row="11" column="2" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </vspacer>
+    </children>
+  </grid>
+</form>
