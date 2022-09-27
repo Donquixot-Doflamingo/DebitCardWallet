@@ -22,8 +22,8 @@ public class DashBoard extends JDialog {
     private final String id;
 
     public DashBoard(String id, JFrame parent) {
-
         super(parent);
+        JDialog.setDefaultLookAndFeelDecorated(true);
         setTitle("Dashboard");
         setContentPane(DashBoard);
         setMinimumSize(new Dimension(600,500));
@@ -42,18 +42,58 @@ public class DashBoard extends JDialog {
         depositBtn.addActionListener(e -> depositAction());
 
         logOutButton.addActionListener(e -> {
-            dispose();
-            loginPage l = new loginPage(parent);
-            l.dispose();
+            int response = JOptionPane.showConfirmDialog(null, "Do you want to log out?", "Confirm",
+                    JOptionPane.YES_NO_OPTION, JOptionPane.QUESTION_MESSAGE);
+            if (response == JOptionPane.NO_OPTION) {
+                System.out.println("No button clicked");
+            } else if (response == JOptionPane.YES_OPTION) {
+                JOptionPane.showMessageDialog(this,
+                        "You have been logged out successfully",
+                        "Logged out",
+                        JOptionPane.OK_OPTION);
+                dispose();
+                loginPage l = new loginPage(parent);
+                l.dispose();
+            } else if (response == JOptionPane.CLOSED_OPTION) {
+                System.out.println("JOptionPane closed");
+            }
+
         });
 
         mainMenuBtn.addActionListener(e -> {
-            dispose();
-            application app = new application();
-            app.dispose();
+            int response = JOptionPane.showConfirmDialog(null, "Do you want to log out and return to main menu?", "Confirm",
+                    JOptionPane.YES_NO_OPTION, JOptionPane.QUESTION_MESSAGE);
+            if (response == JOptionPane.NO_OPTION) {
+                System.out.println("No button clicked");
+            } else if (response == JOptionPane.YES_OPTION) {
+                JOptionPane.showMessageDialog(this,
+                        "You have been logged out successfully. Returning to main menu.",
+                        "Logged out",
+                        JOptionPane.OK_OPTION);
+                dispose();
+                application app = new application();
+                app.dispose();
+            } else if (response == JOptionPane.CLOSED_OPTION) {
+                System.out.println("JOptionPane closed");
+            }
+
         });
 
-        ExitBtn.addActionListener(e -> dispose());
+        ExitBtn.addActionListener(e -> {
+            int response = JOptionPane.showConfirmDialog(null, "Do you want to exit the application?", "Confirm",
+                    JOptionPane.YES_NO_OPTION, JOptionPane.QUESTION_MESSAGE);
+            if (response == JOptionPane.NO_OPTION) {
+                System.out.println("No button clicked");
+            } else if (response == JOptionPane.YES_OPTION) {
+                JOptionPane.showMessageDialog(this,
+                        "Application will be closed",
+                        "Shutting down",
+                        JOptionPane.OK_OPTION);
+                dispose();
+            } else if (response == JOptionPane.CLOSED_OPTION) {
+                System.out.println("JOptionPane closed");
+            }
+        });
 
         setVisible(true);
     }

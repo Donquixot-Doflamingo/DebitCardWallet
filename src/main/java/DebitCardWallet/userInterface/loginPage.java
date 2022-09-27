@@ -75,5 +75,5 @@ public class loginPage extends JDialog {
             d.dispose();
         }
     }
-
+    
 }
